@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,6 @@ body {
     color: #333;
 }
 
-/* Header Styles */
 header {
     position: fixed;
     top: 0;
@@ -47,7 +46,6 @@ nav ul li a:hover {
     color: #007bff;
 }
 
-/* Hero Section */
 .hero {
     height: 100vh;
     display: flex;
@@ -86,7 +84,6 @@ nav ul li a:hover {
     background-color: #007bff;
 }
 
-/* Section Styles */
 section {
     padding: 5rem 2rem;
 }
@@ -97,7 +94,6 @@ h2 {
     font-size: 2.5rem;
 }
 
-/* About Section */
 .about-content {
     max-width: 800px;
     margin: 0 auto;
@@ -117,7 +113,6 @@ h2 {
     height: 767px;
 }
 
-/* Skills Section */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -145,7 +140,6 @@ h2 {
     color: #007bff;
 }
 
-/* Projects Section */
 .project-grid {
     width: 50%;
     margin-left: auto;
@@ -275,7 +269,6 @@ footer {
     width: 100%;
     border: none;
     height: 600px;
-    /* Adjust height as needed */
     border-radius: 4px;
 }
 
@@ -298,7 +291,7 @@ footer {
     color: #ffffff;
 }
 
-/* From Uiverse.io by eirikvold */
+
 button {
     font-family: inherit;
     font-size: 18px;
@@ -383,7 +376,7 @@ button:hover svg {
 }
 .button-group {
     display: flex;
-    gap: 15px; /* Space between buttons */
+    gap: 15px; 
     margin-top: 15px;
 }
 
@@ -391,7 +384,7 @@ button:hover svg {
 .download-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0073b1; /* Button color */
+    background-color: #0073b1; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -402,14 +395,14 @@ button:hover svg {
 
 .cta-button:hover,
 .download-button:hover {
-    background-color: #007bff; /* Darker on hover */
-    transform: translateY(-3px); /* Lift effect on hover */
+    background-color: #007bff; 
+    transform: translateY(-3px); 
 }
 
 .download-button {
-    background-color: #007bff; /* Green color for download button */
+    background-color: #007bff; 
 }
 
 .download-button:hover {
-    background-color: #007bff; /* Darker green on hover */
+    background-color: #007bff; 
 }
